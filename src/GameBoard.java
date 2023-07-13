@@ -33,6 +33,7 @@ public class GameBoard extends JPanel {
         setPreferredSize(new Dimension(Main.WIDTH - 60, Main.HEIGHT - 180));
     }
 
+/// test branch
     public void initGameCard() {
         getListGameCard();
         for (int i = 0; i < listGameCard.size(); i++) {
